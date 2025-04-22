@@ -93,7 +93,6 @@
   padding: 1.5px 13px;
   background-color: transparent;
   color: var(--accent-color);
-  border: none;
   text-transform: lowercase;
   border: 1px solid transparent;
 }
@@ -167,7 +166,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  color: var(--accent-color);
+  color: var(--section-title-color);
 }
 
 .list-item__text {
@@ -213,6 +212,7 @@
 }
 
 li h4 {
+  font-weight: 400;
   display: block;
   margin-block-start: 5px;
   margin-block-end: 10px;
@@ -387,6 +387,6 @@ li h4 {
   }
 
   .footer {
-    padding: 66px 0 66px 19px;
+    padding: 66px 0 319px 19px;
   }
 }

@@ -16,7 +16,6 @@
 }
 
 .header {
-  height: 100vh;
   box-sizing: border-box;
   position: relative;
   display: grid;
@@ -351,7 +350,7 @@ li h4 {
 
 @media (width >=1024px) {
   .header__title {
-    padding-block-start: 253px;
+    padding-block-start: 255px;
     font-size: 157px;
   }
 
@@ -362,7 +361,7 @@ li h4 {
 
   .header__theme-menu {
     justify-self: center;
-    padding-block: 20px;
+    padding-block: 18px;
   }
 
   .header__theme-menu-list {

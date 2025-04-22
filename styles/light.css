@@ -13,10 +13,10 @@
   --rec-color: transparent;
   --corner-color: #353430;
   --section-title-color: #353430;
-  --header-title-color: #FFC2E6;
+  --header-title-color: #ffc2e6;
   --text-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --border-color: #353430;
 }
 
@@ -28,21 +28,21 @@
   --section-title-color: #353430;
   --text-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --border-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем переменные светлой темы */    
+    /* Дублируем переменные светлой темы */
     --accent-color: #ff8dcb;
     --corner-color: #353430;
     --rec-color: transparent;
     --section-title-color: #353430;
-    --header-title-color: #FFC2E6;
+    --header-title-color: #ffc2e6;
     --text-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
     --border-color: #353430;
   }
 }

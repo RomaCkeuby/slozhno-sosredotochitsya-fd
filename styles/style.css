@@ -149,6 +149,7 @@
 
 .list-item__title {
   margin-block-end: 9px;
+  line-height: 23.4px;
 }
 
 .focus_article {
@@ -370,7 +371,7 @@ li h4 {
   }
 
   .section {
-    gap: 15px;
+    gap: 12px;
   }
 
   .list-item__text {

@@ -313,7 +313,7 @@ li h4 {
 
   .section {
     grid-template-columns: 1fr 2fr;
-    margin-block-end: 30px;
+    margin-block-end: 20px;
   }
 
   .list-two-columns {

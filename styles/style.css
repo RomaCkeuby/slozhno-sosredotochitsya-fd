@@ -314,7 +314,7 @@ li h4 {
 
   .section {
     grid-template-columns: 1fr 2fr;
-    margin-block-end: 20px;
+    margin-block-end: 30px;
   }
 
   .list-two-columns {
@@ -393,6 +393,7 @@ li h4 {
 
   .section {
     gap: 12px;
+    margin-block-end: 20px;
   }
 
   .section__list {

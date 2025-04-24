@@ -13,22 +13,11 @@
   --corner-color: #353430;
   --section-title-color: #353430;
   --header-title-color: #ffc2e6;
+  --button-active-border-color: #353430;
   --text-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #fff1f7;
-  --border-color: #353430;
-  --rec-display: none;
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  --accent-color: #ff8dcb;
-  --corner-color: #353430;
-  --section-title-color: #353430;
-  --text-color: #353430;
-  --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #fff1f7;
-  --border-color: #353430;
+  --border-hover-color: rgba(50, 49, 45, 0.6);
   --rec-display: none;
 }
 
@@ -39,10 +28,11 @@
     --corner-color: #353430;
     --section-title-color: #353430;
     --header-title-color: #ffc2e6;
+    --button-active-border-color: #353430;
     --text-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #fff1f7;
-    --border-color: #353430;
+    --border-hover-color: rgba(50, 49, 45, 0.6);
     --rec-display: none;
   }
 }

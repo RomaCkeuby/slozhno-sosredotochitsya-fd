@@ -17,6 +17,8 @@
 
 .header {
   box-sizing: border-box;
+  height: 100vh;
+  min-height: 668px;
   position: relative;
   display: grid;
   padding-block-end: 66px;
@@ -100,12 +102,20 @@
 /* button */
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--button-active-border-color);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-hover-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--button-active-border-color);
 }
 
 .header__title {
@@ -147,9 +157,16 @@
   gap: 20px;
 }
 
-.list-item__title {
-  margin-block-end: 9px;
+.section__list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
+
+/* заменен на вышестоящий флекс для пункта списка.
+  .list-item__title {
+  margin-block-end: 9px;
+} */
 
 .focus_article {
   display: flex;
@@ -170,7 +187,7 @@
 }
 
 .list-item__text {
-  letter-spacing: 0.07em;
+  font-size: 18px;
   line-height: 23.4px;
   padding-inline-end: 10px;
 }
@@ -238,11 +255,15 @@ li h4 {
 }
 
 .article__image-set img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .footer {
   height: 100vh;
+  min-height: 668px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -276,6 +297,7 @@ li h4 {
 
   .header__title {
     margin-inline-start: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__description {
@@ -352,7 +374,6 @@ li h4 {
 @media (width >=1024px) {
   .header__title {
     padding-block-start: 255px;
-    font-size: 157px;
   }
 
   .header__description {

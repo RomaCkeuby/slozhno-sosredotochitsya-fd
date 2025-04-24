@@ -189,7 +189,7 @@
 .list-item__text {
   font-size: 18px;
   line-height: 23.4px;
-  padding-inline-end: 10px;
+  /* padding-inline-end: 10px; */
 }
 
 .list-item__link {
@@ -232,7 +232,7 @@ li h4 {
   font-weight: 400;
   display: block;
   margin-block-start: 5px;
-  margin-block-end: 10px;
+  margin-block-end: 1px;
   font-size: 18px;
 }
 

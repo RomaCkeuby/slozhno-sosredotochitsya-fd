@@ -162,7 +162,7 @@
 .section__list-item {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 10px;
 }
 
 /* заменен на вышестоящий флекс для пункта списка.
@@ -271,9 +271,6 @@ li h4 {
   align-items: center;
   height: 100vh;
   min-height: 668px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 @media (width >=768px) {

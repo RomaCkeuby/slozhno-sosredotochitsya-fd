@@ -401,11 +401,7 @@ li h4 {
   .list-two-columns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-block-start: 6px;
-  }
-
-  .focus_article h3 {
-    margin-block-start: 2px;
+    margin-block-start: 8px;
   }
 
   .image_article h3 {

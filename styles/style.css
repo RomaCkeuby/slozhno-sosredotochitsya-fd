@@ -79,7 +79,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .header__theme-menu-item {
@@ -91,7 +91,7 @@
 .header__theme-menu-button {
   border: 1px solid transparent;
   padding: 1.5px 13px;
-  color: var(--accent-color);
+  color: var(--button-color);
   font-family: "IBM Plex mono", serif;
   font-size: 18px;
   line-height: 23px;
@@ -127,6 +127,7 @@
 }
 
 .header__description {
+  height: fit-content;
   margin-block-start: 55px;
   font-weight: 700;
   font-size: 18px;
@@ -178,7 +179,6 @@
 
 .focus_article h3 {
   margin-block-end: 5px;
-  letter-spacing: -0.5px;
 }
 
 .section__title {
@@ -234,7 +234,6 @@
 li h4 {
   display: block;
   margin-block-start: 5px;
-  margin-block-end: 1px;
   font-weight: 400;
   font-size: 18px;
 }
@@ -246,15 +245,11 @@ li h4 {
   align-items: center;
   gap: 10px;
   box-sizing: border-box;
-  margin: 0;
+  margin: 12px 0px 0px 0px;
 }
 
 .image_article {
   margin-block-start: 30px;
-}
-
-.image_article h3 {
-  letter-spacing: -0.5px;
 }
 
 .article__image-set img {
@@ -409,7 +404,20 @@ li h4 {
     margin-block-start: 6px;
   }
 
+  .focus_article h3 {
+    margin-block-start: 2px;
+  }
+
+  .image_article h3 {
+    margin-block-start: 4px;
+  }
+
   .image_article {
     margin-block-start: 65px;
+  }
+
+  .footer h2 {
+    padding-block-start: 0px;
+    padding-inline-start: 15px;
   }
 }

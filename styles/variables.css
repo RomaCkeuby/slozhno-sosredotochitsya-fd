@@ -8,12 +8,13 @@
   --corner-color: #ff0070;
   --section-title-color: #ff0070;
   --header-title-color: #db00ff;
+  --button-color: #ff0070;
   --button-active-border-color: #ff0070;
   --title-color: #000028;
   --text-color: #f1b2ce;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --border-color: rgba(255, 0, 122, 0.6);
+  --border-hover-color: rgba(255, 0, 122, 0.6);
   --rec-display: flex;
 }
 

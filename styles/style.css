@@ -401,7 +401,7 @@ li h4 {
   .list-two-columns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-block-start: 8px;
+    margin-block-start: 10px;
   }
 
   .image_article h3 {

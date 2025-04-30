@@ -365,6 +365,22 @@ li h4 {
   .footer {
     margin-block-start: 30px;
   }
+
+  .footer h2 {
+    padding-block-start: 0px;
+    padding-inline-start: 20px;
+    padding-block-start: 5px;
+  }
+}
+
+@media (height < 850px) {
+  .header__description {
+  margin-block-start: 80px;
+  }
+
+  .header__theme-menu {
+    padding-block: 100px;
+  }
 }
 
 @media (width >=1024px) {
@@ -410,10 +426,5 @@ li h4 {
 
   .image_article {
     margin-block-start: 65px;
-  }
-
-  .footer h2 {
-    padding-block-start: 0px;
-    padding-inline-start: 20px;
   }
 }

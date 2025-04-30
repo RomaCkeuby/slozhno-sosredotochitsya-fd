@@ -15,6 +15,7 @@
   --header-title-color: #ffc2e6;
   --button-color: #353430;
   --button-active-border-color: #353430;
+  --title-color: #353430;
   --text-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #fff1f7;
@@ -31,6 +32,7 @@
     --header-title-color: #ffc2e6;
     --button-color: #353430;
     --button-active-border-color: #353430;
+    --title-color: #353430;
     --text-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #fff1f7;

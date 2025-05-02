@@ -73,7 +73,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  padding-block: 75px 60px;
+  padding-block: 73px 65px;
 }
 
 .header__theme-menu-list {
@@ -372,7 +372,7 @@ li h4 {
   }
 }
 
-@media (height < 850px) {
+@media (width >=768px) and (height < 850px) {
   .header__description {
     margin-block-start: 80px;
   }
